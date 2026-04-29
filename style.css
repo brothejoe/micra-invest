@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;background:#08131c;color:#eef5fb;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6%;position:sticky;top:0;background:rgba(8,19,28,.85);backdrop-filter:blur(10px)}
+.logo{font-size:1.4rem;font-weight:800;letter-spacing:2px}
+nav a{margin-left:24px;color:#bdd0df}
+.hero{padding:110px 6%;background:linear-gradient(135deg,#0d2030,#123e4d)}
+.wrap{max-width:820px}.tag{color:#61f0c2;font-weight:700;margin-bottom:14px}
+h1{font-size:3.2rem;line-height:1.1;margin-bottom:18px}.lead{font-size:1.2rem;color:#c9d8e4}
+.cta{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}.btn{padding:14px 22px;border:1px solid #4b687a;border-radius:14px}
+.primary{background:#61f0c2;color:#072019;border:none;font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;padding:50px 6%}
+.stats div,.content{background:#0f1f2b;border:1px solid #1f3545;border-radius:22px;padding:28px}
+.stats strong{font-size:2rem;display:block}
+.content{margin:24px 6%}.dark{background:#102734}
+h2{margin-bottom:14px;font-size:2rem}ul{padding-left:18px}
+footer{text-align:center;padding:40px;color:#9eb2c2}
+.reveal{opacity:0;transform:translateY(30px);transition:.8s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:768px){h1{font-size:2.3rem}.nav{flex-direction:column;gap:10px}}
